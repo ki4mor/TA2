@@ -24,7 +24,6 @@ reserved = {
     'compass': 'compass',
 
     #function
-    'main': 'main',
     'begin': 'begin',
     'return': 'return',
     'end': 'end',
@@ -40,7 +39,7 @@ class Lexer:
               'LASIGNMENT', 'RASIGNMENT',
               'MORE', 'LESS',
               'MOREEQ', 'LESSEQ',
-              'MULT', 'DIVIDE',
+              'MULT', 'DIV',
               'PLUS', 'MINUS',
               'RRNDBRACKET', 'LRNDBRACKET',
               'LSQBRACKET', 'RSQBRACKET',
@@ -53,7 +52,7 @@ class Lexer:
     t_MOREEQ = r'\=\>'
     t_LESSEQ = r'\<\='
     t_MULT = r'\*'
-    t_DIVIDE = r'\/'
+    t_DIV = r'\/'
     t_PLUS = r'\+'
     t_MINUS = r'\-'
     t_RRNDBRACKET = r'\)'
@@ -90,7 +89,7 @@ class Lexer:
         return self.lexer.token()
 
 
-data = '''
+data = ''' 
 big main [] begin
 small n << 4,
 small c << 0,

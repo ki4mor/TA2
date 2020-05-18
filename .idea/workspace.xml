@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62b2103e-e334-4350-ad1f-1edb712124c4" name="Default Changelist" comment="" />
+    <list default="true" id="62b2103e-e334-4350-ad1f-1edb712124c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SyntaxTree/Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexer/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ТА.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ТА.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bjhk8m45kHn4Yz6swxmOQ05SCV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,8 +33,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\TA2\lexer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.parser">
+    <configuration name="lexer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TA2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lexer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lexer/lexer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="lexer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TA2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -36,7 +74,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lexer.py" />
+      <option name="SCRIPT_NAME" value="D:\Python\TA2\lexer\lexer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TA2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser/parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -47,7 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parser" />
         <item itemvalue="Python.lexer" />
+        <item itemvalue="Python.lexer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -69,22 +130,42 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="732" y="382" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589151575507" />
-    <state width="1898" height="237" key="GridCell.Tab.0.bottom" timestamp="1589156393067">
+    <state width="1898" height="253" key="GridCell.Tab.0.bottom" timestamp="1589767015378">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589156393067" />
-    <state width="1898" height="237" key="GridCell.Tab.0.center" timestamp="1589156393067">
+    <state width="1898" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589767015378" />
+    <state width="1898" height="253" key="GridCell.Tab.0.center" timestamp="1589767015378">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="237" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589156393067" />
-    <state width="1898" height="237" key="GridCell.Tab.0.left" timestamp="1589156393067">
+    <state width="1898" height="253" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589767015378" />
+    <state width="1898" height="253" key="GridCell.Tab.0.left" timestamp="1589767015378">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="237" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589156393067" />
-    <state width="1898" height="237" key="GridCell.Tab.0.right" timestamp="1589156393067">
+    <state width="1898" height="253" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589767015378" />
+    <state width="1898" height="253" key="GridCell.Tab.0.right" timestamp="1589767015378">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="237" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589156393067" />
+    <state width="1898" height="253" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589767015378" />
+    <state width="1898" height="390" key="GridCell.Tab.1.bottom" timestamp="1589501242801">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1898" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589501242801" />
+    <state width="1898" height="390" key="GridCell.Tab.1.center" timestamp="1589501242801">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1898" height="390" key="GridCell.Tab.1.center/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589501242801" />
+    <state width="1898" height="390" key="GridCell.Tab.1.left" timestamp="1589501242801">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1898" height="390" key="GridCell.Tab.1.left/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589501242801" />
+    <state width="1898" height="390" key="GridCell.Tab.1.right" timestamp="1589501242801">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1898" height="390" key="GridCell.Tab.1.right/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589501242801" />
+    <state x="50" y="294" width="1424" height="850" key="dock-window-1" timestamp="1589761011137">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="50" y="294" width="1424" height="850" key="dock-window-1/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589761011137" />
     <state x="620" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1589154517997">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
