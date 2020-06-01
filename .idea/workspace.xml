@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b2103e-e334-4350-ad1f-1edb712124c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/simple_map.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Errors/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Robot/robot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interpreter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexer/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexer/lexer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/parser.out" beforeDir="false" afterPath="$PROJECT_DIR$/ParseR/parser.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParseR/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/parsetab.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParseR/parsetab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ТА.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ТА.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -216,10 +207,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1898" height="257" key="GridCell.Tab.1.right/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590962859035" />
-    <state x="185" y="422" key="SettingsEditor" timestamp="1590973026593">
+    <state x="185" y="422" key="SettingsEditor" timestamp="1590973756709">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="185" y="422" key="SettingsEditor/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590973026593" />
+    <state x="185" y="422" key="SettingsEditor/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590973756709" />
     <state x="-1898" y="120" width="1914" height="1080" key="dock-window-1" timestamp="1590718705351">
       <screen x="-1920" y="120" width="1920" height="1080" />
     </state>
