@@ -1,0 +1,19 @@
+big MAIN[] begin
+small N << 7,
+big RES << 0,
+RES << FIB(N),
+return RES.
+end
+
+big FIB[small N] begin
+big F1 << 0,
+big F2 << 0,
+check N<=2 do
+F1 << 1.,
+check N>2 do
+N << N-1,
+F1 << FIB (N),
+N << N-1,
+F2 << FIB (N).,
+return F1+F2.
+end

@@ -1,0 +1,22 @@
+small MAIN[] begin
+small N << 5,
+small K << 0,
+K << FUNC1(N),
+return K.
+end
+
+small FUNC1[small N] begin
+small A << 0,
+small B << 0,
+A << N,
+B << FUNC2(A),
+return B.
+end
+
+small FUNC2[small N] begin
+small C << 0,
+small D << 0,
+C << N,
+D << FUNC1(C),
+return D.
+end

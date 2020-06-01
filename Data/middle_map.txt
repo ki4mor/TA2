@@ -1,0 +1,10 @@
+2 3 0
+8 8
+wwwwwwww
+w  w   e
+w      w
+w      w
+w    www
+w   w  w
+w      w
+wwwwwwww

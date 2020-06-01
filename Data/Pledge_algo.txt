@@ -1,0 +1,65 @@
+big MAIN[] begin
+big COUNTER << -0,
+small SONARRESULT << 0,
+small NEEDBREAK << -0,
+small FORSONAR1 << 2,
+small FORSONAR2 << 0,
+small RES << +0,
+small FORCOM << 0,
+big INDEX << 5000,
+small BIT2 << 0,
+until INDEX do
+INDEX << INDEX - 1,
+SONARRESULT << sonar,
+NEEDBREAK << 0,
+BIT2 << GETBIT(SONARRESULT FORSONAR1),
+check INVERT(BIT2) do
+check COUNTER > 0 do
+FORCOM << rr,
+COUNTER << COUNTER - 1,
+NEEDBREAK << -16..,
+RES << GETBIT(SONARRESULT FORSONAR2),
+RES << RES + NEEDBREAK,
+check INVERT(RES) do
+FORCOM << go,
+check FORCOM>1 do
+INDEX << 0.,
+NEEDBREAK << -16.,
+check NEEDBREAK => 0 do
+FORCOM << rl,
+COUNTER << COUNTER + 1,
+NEEDBREAK << -16..,
+return -1.
+end
+
+tiny INVERT[small BIT] begin
+check BIT do
+return 0.,
+return 1.
+end
+
+small GETBIT[small A, small NUMBER] begin
+check NUMBER < 0 do
+return -1.,
+check NUMBER => 5 do
+return -1.,
+until NUMBER > 0 do
+A << A / 2,
+NUMBER << NUMBER - 1.,
+return ISNOTEVENSMALL(A).
+end
+
+tiny ISNOTEVENSMALL[small NUMBER] begin
+check NUMBER => 16 do
+NUMBER << NUMBER - 16.,
+check NUMBER => 8 do
+NUMBER << NUMBER - 8.,
+check NUMBER => 4 do
+NUMBER << NUMBER - 4.,
+check NUMBER => 2 do
+NUMBER << NUMBER - 2.,
+check NUMBER>0 do
+check NUMBER<2 do
+return 1..,
+return 0.
+end

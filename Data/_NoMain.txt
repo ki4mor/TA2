@@ -1,0 +1,5 @@
+small FUNC[small K] begin
+small N <<0,
+N << K+3,
+return N.
+end

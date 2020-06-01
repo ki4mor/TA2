@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b2103e-e334-4350-ad1f-1edb712124c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyntaxTree/Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/simple_map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Errors/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Robot/robot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpreter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexer/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexer/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexer/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/parser.out" beforeDir="false" afterPath="$PROJECT_DIR$/ParseR/parser.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParseR/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/parsetab.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParseR/parsetab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ТА.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ТА.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +38,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\TA2" />
       <recent name="D:\Python\TA2\lexer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.parser">
-    <configuration name="lexer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.interpreter">
+    <configuration name="int" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TA2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,11 +55,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lexer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interpreter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lexer/lexer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interpreter/int.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -62,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lexer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="interpreter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TA2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +80,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python\TA2\lexer\lexer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interpreter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="interpreter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TA2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interpreter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Python\TA2\interpreter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,11 +118,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ParseR" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser/parser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ParseR/parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TA2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interpreter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interpreter/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,9 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.interpreter" />
+        <item itemvalue="Python.interpreter (1)" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.parser" />
-        <item itemvalue="Python.lexer" />
-        <item itemvalue="Python.lexer (1)" />
+        <item itemvalue="Python.int" />
       </list>
     </recent_temporary>
   </component>
@@ -130,45 +180,116 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="732" y="382" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589151575507" />
-    <state width="1898" height="253" key="GridCell.Tab.0.bottom" timestamp="1589767015378">
+    <state width="910" height="466" key="DebuggerActiveHint" timestamp="1590718307789">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589767015378" />
-    <state width="1898" height="253" key="GridCell.Tab.0.center" timestamp="1589767015378">
+    <state width="910" height="466" key="DebuggerActiveHint/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590718307789" />
+    <state width="1898" height="245" key="GridCell.Tab.0.bottom" timestamp="1590973193576">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="253" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589767015378" />
-    <state width="1898" height="253" key="GridCell.Tab.0.left" timestamp="1589767015378">
+    <state width="1898" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590973193576" />
+    <state width="1898" height="245" key="GridCell.Tab.0.center" timestamp="1590973193576">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="253" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589767015378" />
-    <state width="1898" height="253" key="GridCell.Tab.0.right" timestamp="1589767015378">
+    <state width="1898" height="245" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590973193576" />
+    <state width="1898" height="245" key="GridCell.Tab.0.left" timestamp="1590973193576">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="253" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589767015378" />
-    <state width="1898" height="390" key="GridCell.Tab.1.bottom" timestamp="1589501242801">
+    <state width="1898" height="245" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590973193576" />
+    <state width="1898" height="245" key="GridCell.Tab.0.right" timestamp="1590973193576">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589501242801" />
-    <state width="1898" height="390" key="GridCell.Tab.1.center" timestamp="1589501242801">
+    <state width="1898" height="245" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590973193576" />
+    <state width="1898" height="257" key="GridCell.Tab.1.bottom" timestamp="1590962859035">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="390" key="GridCell.Tab.1.center/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589501242801" />
-    <state width="1898" height="390" key="GridCell.Tab.1.left" timestamp="1589501242801">
+    <state width="1898" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590962859035" />
+    <state width="1898" height="257" key="GridCell.Tab.1.center" timestamp="1590962859035">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="390" key="GridCell.Tab.1.left/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589501242801" />
-    <state width="1898" height="390" key="GridCell.Tab.1.right" timestamp="1589501242801">
+    <state width="1898" height="257" key="GridCell.Tab.1.center/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590962859035" />
+    <state width="1898" height="257" key="GridCell.Tab.1.left" timestamp="1590962859035">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1898" height="390" key="GridCell.Tab.1.right/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589501242801" />
-    <state x="50" y="294" width="1424" height="850" key="dock-window-1" timestamp="1589761011137">
+    <state width="1898" height="257" key="GridCell.Tab.1.left/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590962859035" />
+    <state width="1898" height="257" key="GridCell.Tab.1.right" timestamp="1590962859035">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="50" y="294" width="1424" height="850" key="dock-window-1/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589761011137" />
-    <state x="620" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1589154517997">
+    <state width="1898" height="257" key="GridCell.Tab.1.right/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590962859035" />
+    <state x="185" y="422" key="SettingsEditor" timestamp="1590973026593">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="620" y="259" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1589154517997" />
+    <state x="185" y="422" key="SettingsEditor/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590973026593" />
+    <state x="-1898" y="120" width="1914" height="1080" key="dock-window-1" timestamp="1590718705351">
+      <screen x="-1920" y="120" width="1920" height="1080" />
+    </state>
+    <state x="-1898" y="120" width="1914" height="1080" key="dock-window-1/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590718705351" />
+    <state x="-1586" y="230" width="1914" height="979" key="dock-window-2" timestamp="1590801562566">
+      <screen x="-1920" y="120" width="1920" height="1080" />
+    </state>
+    <state x="-1586" y="230" width="1914" height="979" key="dock-window-2/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590801562566" />
+    <state x="155" y="144" width="1440" height="803" key="dock-window-3" timestamp="1590861172714">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="155" y="144" width="1440" height="803" key="dock-window-3/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590861172714" />
+    <state x="-1772" y="171" width="1440" height="954" key="dock-window-4" timestamp="1590956360311">
+      <screen x="-1920" y="120" width="1920" height="1080" />
+    </state>
+    <state x="-1772" y="171" width="1440" height="954" key="dock-window-4/0.0.1920.1160/-1920.120.1920.1080@-1920.120.1920.1080" timestamp="1590956360311" />
+    <state x="-1772" y="171" width="1440" height="954" key="dock-window-4/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590950266493" />
+    <state x="1179" y="212" width="568" height="834" maximized="true" key="dock-window-5" timestamp="1590956088397">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1179" y="212" width="568" height="834" maximized="true" key="dock-window-5/0.0.1920.1160/-1920.120.1920.1080@-1920.120.1920.1080" timestamp="1590956088397" />
+    <state x="620" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1590879815929">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="620" y="259" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/-1920.120.1920.1080@0.0.1920.1160" timestamp="1590879815929" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Interpreter/test.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robot/robot.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robot/robot.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robot/robot.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interpreter.py</url>
+          <line>694</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interpreter.py</url>
+          <line>690</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="functions['MAIN'].children['body'].children[0].children" />
+        <watch expression="self" />
+        <watch expression="node" />
+        <watch expression="self.sym_table[0]" />
+        <watch expression="self" />
+        <watch expression="self" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

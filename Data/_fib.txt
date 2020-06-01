@@ -1,0 +1,23 @@
+big MAIN [] begin
+small N << 7,
+big C << 0,
+check N<=0 do
+C << 0.,
+check N<=2 do
+C << 1.,
+check N>2 do
+N << N-2,
+C << FIB(N)..
+end
+
+big FIB [small N] begin
+small NUM1 << 1,
+small NUM2 << 1,
+small NUM3 << 0,
+until N>0 do
+NUM3 << NUM1+NUM2,
+NUM2 << NUM1,
+NUM1 << NUM3,
+N << N-1.,
+return NUM3.
+end

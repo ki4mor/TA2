@@ -1,0 +1,27 @@
+big MAIN[] begin
+small SIZE << 31,
+small I << 0,
+small J << 0,
+small K << 0,
+small TMP <<0,
+field small small MAS << 0,
+MAS[1 1] << 2,
+MAS[1 5] << 5,
+MAS[0 3] << 3,
+MAS[0 6] << 10,
+MAS[0 10] << 4,
+until K<SIZE do
+until I<SIZE do
+until J<SIZE-1 do
+check MAS[K J] < MAS[K J+1] do
+TMP << MAS[K J+1],
+MAS[K J+1] << MAS[K J],
+MAS[K J] << TMP.,
+J << J+1.,
+I << I+1,
+J << 0.,
+I << 0,
+K << K+1..
+end
+
+

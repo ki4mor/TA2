@@ -1,41 +1,16 @@
 import sys
 import ply.lex as lex
 
-reserved = {
-    #variables
-    'tiny': 'tiny',
-    'small': 'small',
-    'normal': 'normal',
-    'big': 'big',
-    'field': 'field',
-
-    #cycle
-    'until': 'until',
-    'do': 'do',
-
-    #if
-    'check': 'check',
-
-    #robot
-    'go': 'go',
-    'rl': 'rl',
-    'rr': 'rr',
-    'sonar': 'sonar',
-    'compass': 'compass',
-
-    #function
-    'begin': 'begin',
-    'return': 'return',
-    'end': 'end',
-
-}
-
 
 class Lexer:
     def __init__(self):
         self.lexer = lex.lex(module=self)
 
-    tokens = ['DECIMAL', 'NAME',
+    tokens = ['until', 'tiny',
+              'small', 'normal', 'big',
+              'field', 'do', 'check', 'go', 'rr', 'rl',
+              'sonar', 'compass', 'begin',
+              'return', 'end', 'DECIMAL', 'NAME',
               'LASIGNMENT', 'RASIGNMENT',
               'MORE', 'LESS',
               'MOREEQ', 'LESSEQ',
@@ -44,7 +19,13 @@ class Lexer:
               'RRNDBRACKET', 'LRNDBRACKET',
               'LSQBRACKET', 'RSQBRACKET',
               'COMMA', 'DOT', 'NEWLINE'
-    ] + list(reserved.values())
+    ]
+
+    precedence = (
+        ('left', 'MULT', 'DIV'),
+        ('left', 'PLUS', 'MINUS'),
+    )
+
     t_LASIGNMENT = r'[<]{2}'
     t_RASIGNMENT = r'[>]{2}'
     t_MORE = r'\>'
@@ -63,14 +44,94 @@ class Lexer:
     t_DOT = r'\.'
     t_ignore =' '
 
+    def t_until(self, t):
+        r'until|unti|unt|un|u'
+        t.type = 'until'
+        return t
+
+    def t_tiny(self, t):
+        r'tiny|tin|ti|t'
+        t.type = 'tiny'
+        return t
+
+    def t_small(self, t):
+        r'small|smal|sma|sm'
+        t.type = 'small'
+        return t
+
+    def t_normal(self, t):
+        r'normal|norma|norm|nor|no|n'
+        t.type = 'normal'
+        return t
+
+    def t_big(self, t):
+        r'big|bi'
+        t.type = 'big'
+        return t
+
+    def t_field(self, t):
+        r'field|fiel|fie|fi|f'
+        t.type = 'field'
+        return t
+
+    def t_do(self, t):
+        r'do|d'
+        t.type = 'do'
+        return t
+
+    def t_check(self, t):
+        r'check|chec|che|ch'
+        t.type = 'check'
+        return t
+
+    def t_go(self, t):
+        r'go|g'
+        t.type = 'go'
+        return t
+
+    def t_rr(self, t):
+        r'rr'
+        t.type = 'rr'
+        return t
+
+    def t_rl(self, t):
+        r'rl'
+        t.type = 'rl'
+        return t
+
+    def t_sonar(self, t):
+        r'sonar|sona|son|so'
+        t.type = 'sonar'
+        return t
+
+    def t_compass(self, t):
+        r'compass|compas|compa|comp|com|co'
+        t.type = 'compass'
+        return t
+
+    def t_begin(self, t):
+        r'begin|begi|beg|be'
+        t.type = 'begin'
+        return t
+
+    def t_return(self, t):
+        r'return|retur|retu|ret|re'
+        t.type = 'return'
+        return t
+
+    def t_end(self, t):
+        r'end|en|e'
+        t.type = 'end'
+        return t
+
     def t_DECIMAL(self, t):
         r'\d+'
         t.value = int(t.value)
         return t
 
     def t_NAME(self, t):
-        r'[a-zA-Z_][a-zA-Z_0-9]*'
-        t.type = reserved.get(t.value, 'NAME')
+        r'[A-Z][A-Z0-9]*'
+        t.type = 'NAME'
         return t
 
     def t_NEWLINE(self, t):
@@ -90,26 +151,27 @@ class Lexer:
 
 
 data = ''' 
-big main [] begin
-small n << 4,
-small c << 0,
-c << fib(n).
-end
+unt N-2>0 do
+bi MAIN [] be
+sma N << (3+2)/2
+small C << 0,
+C << FIB(N).
+en
 
-small fib [small n] begin
-small num1 << 1,
-small num2 << 1,
-small num3 << 0,
-check n<=0 do
-return num3.
-check n<=2 do
-return num1.
-until n-2>0 do
-num3 << num1+num2,
-num2 << num1,
-num1 << num3,
-n << n-1.
-return num3.
+small FIB [small N] begin
+small NUM1 << 1,
+small NUM2 << 1,
+small NUM3 << 0,
+check N<=0 do
+return nNUM3.
+check N<=2 do
+return NUM1.
+until N-2>0 do
+NUM3 << NUM1+NUM2,
+NUM2 << NUM1,
+NUM1 << NUM3,
+N << N-1.
+return NUM3.
 end
 '''
 # data = '''tiny d << 0
